@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+body
+{
+	background-image: url("../images/holiday-4369987_1920.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.main
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 340px;
+	height: 400px;
+	padding: 80px 40px;
+	background: rgba(0,0,0,.8);
+	border-radius: 10px;
+}
+.main:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+	pointer-events: none;
+}
+.avtar
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+h2
+{
+	color: #efed40;
+	text-align: center;
+	padding: 0 0 20px;
+}
+.main p
+{
+	font-weight: bold;
+	color: #fff;
+}
+.main input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+input[type="text"],
+input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+}
+input[type="submit"]
+{
+	border: none;
+	outline: none;
+	color: #262626;
+	background: #fff700;
+	cursor: pointer;
+	border-radius: 20px;
+	height: 40px;
+	font-size: 16px;
+}
+input[type="submit"]:hover
+{
+	color: #262626;
+	background: #efed40;
+}
+img
+{
+	height: 100%;
+	width: 100%;
+}
+a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #efed40;
+}
